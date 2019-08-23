@@ -8,12 +8,7 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  if(myAnimal() == 'dog') {
-    return 'cat';
-  }
-  else {
-    return 'dog';
-  }
+  return myAnimal();
 }
 
 function add2(n) {
